@@ -46,6 +46,7 @@ main {
 .content-wrapper .description h1 {
   font-family: "Fraunces";
   margin: 1rem 0;
+  font-size: 2rem;
 }
 .content-wrapper .price {
   display: flex;
@@ -84,7 +85,7 @@ button {
   }
   main {
     display: flex;
-    width: 80vw;
+    width: 90vh;
     max-height: 60vh;
   }
   .img-wrapper img {
@@ -92,6 +93,15 @@ button {
     width: auto;
     border-top-right-radius: 0;
     border-bottom-left-radius: 1rem;
+  }
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem 2.5rem;
+  }
+  .content-wrapper .description p {
+    margin-bottom: 0 !important;
   }
 }
 
