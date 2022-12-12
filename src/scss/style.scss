@@ -98,6 +98,14 @@ button {
   font-weight: 700;
   font-family: 'Montserrat';
   letter-spacing: 1px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    background-color: $neutral-dark-blue;
+  }
 }
 
 @media screen and (min-width: 1000px) {
