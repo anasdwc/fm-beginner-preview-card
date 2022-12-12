@@ -114,24 +114,26 @@ button {
   }
 
   main {
-    display: flex;
-    width:90vh;
-    max-height: 60vh;
+    display: grid;
+    width: 90vh;
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .img-wrapper img {
-    height: 100%;
-    width: auto;
-    border: {
-      top-right-radius: 0;
-      bottom-left-radius: 1rem;
-    };
+  .img-wrapper {
+    img {
+      height: 100%;
+      border: {
+        top-right-radius: 0;
+        bottom-left-radius: 1rem;
+      };
+    }
   }
 
   .content-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+
     padding: 2rem 2.5rem;
 
     .description p {

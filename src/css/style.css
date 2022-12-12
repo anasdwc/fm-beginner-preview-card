@@ -90,13 +90,12 @@ button:active {
     align-items: center;
   }
   main {
-    display: flex;
+    display: grid;
     width: 90vh;
-    max-height: 60vh;
+    grid-template-columns: repeat(2, 1fr);
   }
   .img-wrapper img {
     height: 100%;
-    width: auto;
     border-top-right-radius: 0;
     border-bottom-left-radius: 1rem;
   }
